@@ -56,7 +56,7 @@
 
 1.  **克隆本仓库**
     ```bash
-    git clone [https://github.com/XiaoyuZhuang/ScreenMentor.git](https://github.com/XiaoyuZhuang/ScreenMentor.git)
+    git clone https://github.com/XiaoyuZhuang/ScreenMentor.git
     cd ScreenMentor
     ```
 
@@ -74,7 +74,7 @@
 # AI 服务配置
 API_KEY = "YOUR_API_KEY"  # 替换为你的 API 密钥
 BASE_URL = "YOUR_AI_API_BASE_URL" # 替换为你的 API 地址
-AI_MODEL = "gpt-4-vision-preview" # 替换为你要调用的模型名称
+AI_MODEL = "gpt-5-mini" # 替换为你要调用的模型名称
 
 # 功能配置
 SCREENSHOT_INTERVAL_SECONDS = 10  # 每隔多少秒截取一次屏幕
@@ -92,9 +92,8 @@ RESIZE_FACTOR = 0.5               # 截图分辨率缩放因子 (0.5 表示长�
 配置完成后，直接在终端运行脚本即可：
 
 ```bash
-python screen_mentor.py
+python screen-ai.py
 ```
-*(请将 `screen_mentor.py` 替换为您实际的 Python 文件名)*
 
 程序启动后，会开始在后台截屏。每个分析周期结束后，会自动弹出分析报告。要停止程序，请在运行脚本的终端窗口按下 `Ctrl + C`。
 
