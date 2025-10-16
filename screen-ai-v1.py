@@ -9,8 +9,8 @@ from PIL import Image
 
 # --- 用户配置区域 ---
 # AI 服务配置
-API_KEY = "sk-hB8k74BrJkM89NMoY7cnkcaLkzdUOElYFd18N6h0ovyvUN6h"  # 替换为你的 API 密钥
-BASE_URL = "https://api.gptgod.online/v1/chat/completions" # 替换为你的 API 地址, 例如 "https://api.gptgod.online/v1/chat/completions"
+API_KEY = "sk-hB8k74BrUN6h"  # 替换为你的 API 密钥
+BASE_URL = "https://api" # 替换为你的 API 地址, 例如 "https://api.gptgod.online/v1/chat/completions"
 AI_MODEL = "gpt-5-mini" # 替换为你要调用的模型名称
 
 # 功能配置
@@ -184,4 +184,5 @@ def main():
         print(f"发生错误: {e}")
 
 if __name__ == "__main__":
+
     main()
